@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mayuri Mahajan | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Background Image Style -->
+  <style>
+    body {
+      background-image: url("images/background.jpg.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+    }
+
+    .content-box {
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 30px;
+      border-radius: 10px;
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Mayuri Mahajan</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- SPACE FOR FIXED NAVBAR -->
+<div style="height:80px;"></div>
+
+<!-- HOME -->
+<section id="home" class="container content-box">
+  <h2 class="text-center">Welcome</h2>
+  <p class="text-center">
+    MCA student interested in software development, machine learning,
+    and research in emerging technologies.
+  </p>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="container content-box">
+  <h2 class="text-center">About Me</h2>
+  <p>
+    I am an MCA student with hands-on experience in academic projects
+    involving machine learning, data analysis, and basic cybersecurity.
+  </p>
+</section>
+
+<!-- SKILLS (UL ELEMENT) -->
+<section id="skills" class="container content-box">
+  <h2 class="text-center">Skills</h2>
+  <ul>
+    <li>Python, Java, C, C++</li>
+    <li>HTML, CSS, Bootstrap</li>
+    <li>MySQL, SQL</li>
+    <li>Machine Learning Basics</li>
+    <li>GitHub, VS Code</li>
+  </ul>
+</section>
+
+<!-- EDUCATION (TABLE ELEMENT) -->
+<section id="education" class="container content-box">
+  <h2 class="text-center">Education</h2>
+  <table class="table table-bordered">
+    <thead class="table-dark">
+      <tr>
+        <th>Qualification</th>
+        <th>Institution</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>MCA</td>
+        <td>MET BKC Institute of Engineering</td>
+      </tr>
+      <tr>
+        <td>BBA (CA)</td>
+        <td>Ashoka Center for Business and Computer Studies</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="container content-box">
+  <h2 class="text-center">Projects</h2>
+  <p><strong>Spam Detection System:</strong> ML-based system to classify messages.</p>
+  <p><strong>Emotion-Based Song Recommendation:</strong> Recommends music using facial emotion analysis.</p>
+</section>
+
+<!-- RESEARCH -->
+<section id="research" class="container content-box">
+  <h2 class="text-center">Research</h2>
+  <p>
+    Published research work in emerging technologies and actively
+    interested in proposal-based research frameworks.
+  </p>
+</section>
+
+<!-- CONTACT (FORM ELEMENT) -->
+<section id="contact" class="container content-box">
+  <h2 class="text-center">Contact Me</h2>
+
+  <form>
+    <div class="mb-3">
+      <label class="form-label">Name</label>
+      <input type="text" class="form-control">
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Email</label>
+      <input type="email" class="form-control">
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Message</label>
+      <textarea class="form-control" rows="3"></textarea>
+    </div>
+
+    <button class="btn btn-dark">Submit</button>
+  </form>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
